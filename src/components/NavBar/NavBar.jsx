@@ -1,44 +1,19 @@
-import logo from './assets/logo.png'
-import CartWidget from '../CartWidget/CartWidget.jsx'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Categories } from "./Categories/Categories";
+import { CartWidget } from "../CartWidget/CartWidget";
 
-const NavBar = () => {
+export const Navbar = () => {
     return (
-        <nav>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#!">
-                        <img src={logo} height="20" className="d-inline-block align-center" alt="Avon Logo" />
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <NavDropdown id="nav-dropdown" title="Shop by brand">
-                                <NavDropdown.Item href="#!">View All</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#!">Today</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">Tomorrow</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">Always</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">The Moment</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">Wonder</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown id="nav-dropdown" title="Shop by product type">
-                                <NavDropdown.Item href="#!">View All</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#!">Eau de Parfum 50ml</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">Purse Spray 10ml</NavDropdown.Item>
-                                <NavDropdown.Item href="#!">Body Lotion 150ml</NavDropdown.Item>
-                            </NavDropdown>
-                        </Nav>
-                        <CartWidget cartQty={0} />
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="/">TTA Fragrance</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon" />
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <Categories />
+                    <CartWidget cartQty={0} />
+                </div>
+            </div>
         </nav>
     );
 }
-
-export default NavBar;

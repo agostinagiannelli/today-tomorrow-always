@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1223086,
+        "idCategory": 1,
+        "name": "TTA Always Body Lotion",
+        "type": "Body Lotion 150ml",
+        "price": 9,
+        "stock": 30,
+        "img": "img/tta-always-body-lotion-150ml.jpg"
+    },
+    {
+        "id": 1223087,
+        "idCategory": 1,
+        "name": "TTA Always Eau de Parfum",
+        "type": "Eau de Parfum 50ml",
+        "price": 25,
+        "stock": 30,
+        "img": "img/tta-always-eau-de-parfum-50ml.jpg"
+    },
+    {
+        "id": 1223152,
+        "idCategory": 1,
+        "name": "TTA Always Purse Spray",
+        "type": "Purse Spray 10ml",
+        "price": 7,
+        "stock": 20,
+        "img": "img/tta-always-purse-spray-10ml.jpg"
+    },
+    {
+        "id": 1226719,
+        "idCategory": 2,
+        "name": "TTA The Moment Body Lotion",
+        "type": "Body Lotion 150ml",
+        "price": 9,
+        "stock": 30,
+        "img": "img/tta-the-moment-body-lotion-150ml.jpg"
+    },
+    {
+        "id": 1226715,
+        "idCategory": 2,
+        "name": "TTA The Moment Eau de Parfum",
+        "type": "Eau de Parfum 50ml",
+        "price": 25,
+        "stock": 30,
+        "img": "img/tta-the-moment-eau-de-parfum-50ml.jpg"
+    },
+    {
+        "id": 1226716,
+        "idCategory": 2,
+        "name": "TTA The Moment Purse Spray",
+        "type": "Purse Spray 10ml",
+        "price": 7,
+        "stock": 20,
+        "img": "img/tta-the-moment-purse-spray-10ml.jpg"
+    },
+    {
+        "id": 1223148,
+        "idCategory": 3,
+        "name": "TTA Today Body Lotion",
+        "type": "Body Lotion 150ml",
+        "price": 9,
+        "stock": 30,
+        "img": "img/tta-today-body-lotion-150ml.jpg"
+    },
+    {
+        "id": 1223151,
+        "idCategory": 3,
+        "name": "TTA Today Eau de Parfum",
+        "type": "Eau de Parfum 50ml",
+        "price": 25,
+        "stock": 30,
+        "img": "img/tta-today-eau-de-parfum-50ml.jpg"
+    },
+    {
+        "id": 1223167,
+        "idCategory": 3,
+        "name": "TTA Today Purse Spray",
+        "type": "Purse Spray 10ml",
+        "price": 7,
+        "stock": 20,
+        "img": "img/tta-today-purse-spray-10ml.jpg"
+    },
+    {
+        "id": 1223157,
+        "idCategory": 4,
+        "name": "TTA Tomorrow Body Lotion",
+        "type": "Body Lotion 150ml",
+        "price": 9,
+        "stock": 30,
+        "img": "img/tta-tomorrow-body-lotion-150ml.jpg"
+    },
+    {
+        "id": 1223160,
+        "idCategory": 4,
+        "name": "TTA Tomorrow Eau de Parfum",
+        "type": "Eau de Parfum 50ml",
+        "price": 25,
+        "stock": 30,
+        "img": "img/tta-tomorrow-eau-de-parfum-50ml.jpg"
+    },
+    {
+        "id": 1223164,
+        "idCategory": 4,
+        "name": "TTA Tomorrow Purse Spray",
+        "type": "Purse Spray 10ml",
+        "price": 7,
+        "stock": 20,
+        "img": "img/tta-tomorrow-purse-spray-10ml.jpg"
+    },
+    {
+        "id": 1231095,
+        "idCategory": 5,
+        "name": "TTA Wonder Body Lotion",
+        "type": "Body Lotion 150ml",
+        "price": 9,
+        "stock": 30,
+        "img": "img/tta-wonder-body-lotion-150ml.jpg"
+    },
+    {
+        "id": 1230428,
+        "idCategory": 5,
+        "name": "TTA Wonder Eau de Parfum",
+        "type": "Eau de Parfum 50ml",
+        "price": 25,
+        "stock": 30,
+        "img": "img/tta-wonder-eau-de-parfum-50ml.jpg"
+    },
+    {
+        "id": 1230444,
+        "idCategory": 5,
+        "name": "TTA Wonder Purse Spray",
+        "type": "Purse Spray 10ml",
+        "price": 7,
+        "stock": 20,
+        "img": "img/tta-wonder-purse-spray-10ml.jpg"
+    }
+]
