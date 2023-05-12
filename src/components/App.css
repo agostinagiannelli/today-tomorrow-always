@@ -1,5 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+.cardBody {
+	background-color: white;
+	margin-bottom: 3px;
+	text-align: center;
+}
 
-body {
-	font-family: 'Poppins';
-};
+.cardBodyDark {
+	background-color: #343a40;
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+.darkMode {
+	background-color: #343a40;
+}

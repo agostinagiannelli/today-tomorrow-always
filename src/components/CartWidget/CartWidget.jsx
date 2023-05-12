@@ -1,9 +1,17 @@
-export const CartWidget = ({ cartQty }) => {
+import { useCartContext } from "../../context/CartContext.js"
+import { Link } from "react-router-dom"
+
+export const CartWidget = () => {
+    const { getItemQuantity } = useCartContext()
+    
     return (
         <>
-            <button className="btn btn-dark">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i> ({cartQty})
+            <button className="btn btn-dark cartWidget">
+                <Link to={"/cart"} className="nav-link">
+                    <i className="fas fa-shopping-cart fa-lg"></i>
+                    {getItemQuantity() > 0 && <span className="cartQty">{getItemQuantity()}</span>}
+                </Link>
             </button>
         </>
-    );
+    )
 }

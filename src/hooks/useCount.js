@@ -1,12 +1,12 @@
 import { useState } from "react"
 
-export const useCount = (InitialValue = 1, min, max) => {
-    if (InitialValue < min || InitialValue > max) {
-        InitialValue = min
+export const useCount = (initialValue = 1, min, max) => {
+    if (initialValue < min || initialValue > max) {
+        initialValue = min
     }
-    const [count, setCount] = useState(InitialValue)
+    const [count, setCount] = useState(initialValue)
     const plus = () => count < max && setCount(count + 1)
     const minus = () => count > min && setCount(count - 1)
-    const reset = () => setCount(InitialValue)
+    const reset = () => setCount(initialValue)
     return { count, plus, minus, reset }
 }
